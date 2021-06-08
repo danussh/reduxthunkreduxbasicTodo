@@ -3,7 +3,7 @@ import {useDispatch,useSelector} from "react-redux";
 import {addTodo,fetchdata} from "../actions/index"
 import Todolist from './Todolist';
 const Todo = () => {
-
+// history
     useEffect(() => {
         dispatch(fetchdata())
     }, [])
